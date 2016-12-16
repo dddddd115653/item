@@ -1,0 +1,188 @@
+/*内容二*/
+
+.sub1{
+    text-align: center;
+    height: 306px;
+    margin-bottom: 170px;
+}
+.sub1 h1{
+    font-size: 30px;
+}
+.sub1 h4{
+    font-size: 20px;
+    color: #797979;
+    line-height: 60px;
+}
+.sub1 p{
+    font-size: 18px;
+    color: #8a8b8b;
+    margin-bottom: 10px;
+}
+.sub1 div{
+    width: 360px;
+    height:210px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.sub1 div span{
+    display: block;
+    width: 360px;
+    height:210px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    transition: background-color .3s;
+}
+.sub1 div span:hover{
+    background-color:rgb(247,123,111);
+}
+.sub1 div p{
+    font-size: 14px;
+    padding-top: 25px;
+}
+/*内容三*/
+.sub3{
+    height: 90px;
+    margin: 70px auto 70px auto;
+    color: #fff;
+}
+.sub3 div{
+    width:806px ;
+    padding: 20px;
+    background-color: #475168;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+.sub3 div h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.sub3 div p{
+    color: #9eb3c4
+}
+.sub3 a{
+    display: inline-block;
+    float: left;
+    width: 236px;
+    height: 75px;
+    line-height: 75px;
+    text-align:center;
+    padding:6px 12px ;
+    background-color:#FF6C60 ;
+    border-radius: 5px;
+
+}
+.sub3 a:hover{
+    background-color: #EC6459;
+}
+/*内容四*/
+.property{
+    width: 100%;
+    height:347px;
+    background-color: #F4F4F4;
+    padding: 100px 0;
+}
+.property img{
+    margin:0 116px 0 70px;
+    float: left;
+}
+.property .w1170 div{
+    float: left;
+}
+.property h1{
+    font-size: 24px;
+    margin: 20px 0 30px 0;
+}
+.property p{
+    width: 530px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.property a{
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius:3px ;
+    background-color: #475168;
+    color: #fff;
+    transition: background-color .5s;
+}
+.property a:hover{
+    background-color: rgb(247,123,111);
+}
+/*内容五*/
+
+/*内容六*/
+.sub6{
+    text-align: center;
+}
+.sub6 h2{
+    font-size:24px ;
+    font-weight: 400;
+    text-align: left;
+    margin:20px 0;
+}
+.sub6 div{
+    width: 100%;
+    height: 202px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.sub6 div img{
+    width: 270px;
+    height:202px;
+    margin-right: 20px;
+    float: left;
+    display: inline-block;
+    transition: .3s transfrom;
+    transform: translateZ(0);
+}
+.sub6 div img:hover{
+    transform: scale(1.5,1.5);
+
+}
+.sub6 span{
+    width:70px ;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background: #EEEEEE;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sub6 .qwe{
+    margin-right: 6px;
+}
+.sub6 .zxc{
+    margin-right: 28px;
+}
+.sub6 span:hover{
+    background-color: rgb(247,123,111);
+}
+.hong{
+    height:400px;
+    background: url("../images/Home/bg.png") no-repeat fixed 0 0 ;
+    background-size: cover;
+}
+.hong h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 300;
+    padding-top: 160px;
+    font-style: italic;
+}
+.logo{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0 12px 0;
+}
+.logo a{
+    margin: 0 30px 0 30px;
+}

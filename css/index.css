@@ -1,0 +1,168 @@
+/*清除默认样式*/
+*{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul,li,ol{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+em, i{
+	font-style:normal;
+}
+input:focus{
+	border-color:red;
+}
+/*公共样式*/
+body{
+	color: #777777;
+	min-width: 1170px;
+}
+.w1170{
+	width: 1170px;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #47506a;
+}
+h3{
+	font-size: 20px;
+}
+p{
+	font-size: 13px;
+	line-height: 22px;
+	color: #797979;
+}
+/*顶部导航*/
+.nav{
+	height: 100px;
+	width: 100%;
+	padding-top: 92px;
+}
+.nav .w1170 >a {
+	font-size: 30px;
+	float: left;
+}
+.nav .w1170 .Lab{
+	color: #f25f5b;
+}
+.nav .w1170 ul{
+	color: #B6B6B6;
+	float: right;
+	font-size: 13px;
+}
+.nav .w1170 ul li{
+	float: left;
+	margin-left: 2px;
+	border-radius: 5px;
+}
+.nav .w1170 ul li a{
+	display: inline-block;
+	padding: 15px 15px 6px 15px;
+	height: 25px;
+	border-radius: 5px;
+}
+#biaoti1{
+	background: #F77B6F;
+	color: #fff;
+}
+.nav .w1170 ul li a:hover{
+	background: #F77B6F;
+	color: #fff;
+}
+.nav .w1170 ul li img{
+    margin-top: 15px;
+}
+.nav .w1170 ul li input{
+    padding: 0 5px 0 35px;
+	height: 32px;
+	margin: 5px 0 0 10px;
+	background: url(../images/index/tu7.png) no-repeat 10px 8px;
+	line-height: normal;
+	border-radius: 4px;
+	border: 0;
+	width: 0;
+}
+.nav .w1170 ul li input:focus{
+	border: 1px solid #EAEAEA;
+	outline-color: #EAEAEA;
+	width: 138px;
+	transition: width .25s;
+}
+/*底部版权*/
+.copy{
+	width: 100%;
+	height: 212px;
+	padding: 50px 0 50px 0;
+	margin-top: 50px;
+	background-color: #475268;
+	color: #ffffff;
+	font-size: 13px;
+}
+.copy .w1170 div{
+	float: left;
+	height: 212px;
+}
+.copy h1{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.copy p a{
+	color: #f37c6b;;
+}
+.copy .w1170 .div2 a{
+	color: #444e67;
+}
+.copy .w1170 .div2 a:hover{
+	color:#f37c6b ;
+}
+.div1{
+	width: 294px;
+}
+.div2{
+	width: 488px;
+	margin-left: 30px;
+}
+.div3{
+	width: 262px;
+	margin-left: 96px;
+}
+/*标题栏*/
+.biaoti{
+	width: 100%;
+	height: 34px;
+	background-color: #475268;
+	padding: 45px 0 45px 0;
+	margin-bottom: 40px;
+	color: #ffffff;
+	letter-spacing:1px;
+}
+.biaoti .w1170 div{
+	float: right;
+	font-size: 13px;
+	display: inline;
+}
+.biaoti .w1170 h1{
+	font-size: 24px;
+	display: inline;
+	line-height: 34px;
+	color:#fff;
+	font-weight: 600;
+}
+.biaoti .w1170 div a{
+	color: #f25f5b;
+	margin-top: 10px;
+	line-height: 34px;
+}
